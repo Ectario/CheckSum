@@ -27,7 +27,7 @@ You just need Python3 on your computer -> https://www.python.org/downloads/
 
       _Hint : You can just write `CheckSum.py exampleFile.extension [hash algorithm]`  if the file is in the same directory than CheckSum.py_
     
-**For now, just 3 algorithm are managed : SHA256, SHA1, MD5**
+**For the moment, just 3 algorithm are managed : SHA256, SHA1, MD5**
 
 ## Example of use case
 
