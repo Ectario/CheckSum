@@ -62,6 +62,6 @@ if __name__ == '__main__':
             print(fileHashed.hexdigest())
             print("-"*len(fileHashed.hexdigest()))
             if compare:
-                print("\n<--> Checksum validated: "+ str(fileHashed.hexdigest()==compare)+" <-->\n")
+                print("\n<--> Checksum validated: "+ str(fileHashed.hexdigest()==compare.lower())+" <-->\n")
     except FileNotFoundError:
         print("\nPath not found", file=sys.stderr)
