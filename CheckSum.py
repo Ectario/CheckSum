@@ -3,8 +3,8 @@ import hashlib
 import sys
 
 def usage():
-    print("Usage : FileChecker.py [path] [algorithm] compare=[Hash to compare]\n \
-            Or : FileChecker.py [path] [algorithn]", file=sys.stderr)
+    print("Usage : CheckSum.py [path] [algorithm] compare=[Hash to compare]\n \
+            Or : CheckSum.py [path] [algorithn]", file=sys.stderr)
 
 #Managed hash algorithm for this version
 class Hash(Enum):
