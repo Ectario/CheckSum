@@ -9,7 +9,7 @@ So it is very useful when we are downloading from the internet, as it allows us 
 We can therefore observe whether the file was corrupted during the download or not. This is the principle of the checksum.
 
 ## Installation
-You just need Python3 on your computer -> https://www.python.org/downloads/
+You just need Python3 on your computer (and the CheckSum script) -> https://www.python.org/downloads/
 
 ## Usage
 
