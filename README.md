@@ -25,7 +25,7 @@ You just need Python3 on your computer (and the CheckSum script) -> https://www.
     
    * **Compare** the hash of "exampleFile.extension" with using absolute or relative path : `CheckSum.py [path]/exampleFile.extension [hash algorithm] compare=[Hash wanted]`  
 
-      _Hint : You can just write `CheckSum.py exampleFile.extension [hash algorithm]`  if the file is in the same directory than CheckSum.py_
+      _Hint : You can just write `CheckSum.py exampleFile.extension [hash algorithm] compare=[Hash wanted]`  if the file is in the same directory than CheckSum.py_
     
 **For the moment, just 3 algorithm are managed : SHA256, SHA1, MD5**
 
