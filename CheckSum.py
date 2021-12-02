@@ -4,7 +4,7 @@ import sys
 
 def usage():
     print("Usage : CheckSum.py [path] [algorithm] compare=[Hash to compare]\n \
-            Or : CheckSum.py [path] [algorithn]", file=sys.stderr)
+            Or : CheckSum.py [path] [algorithm]", file=sys.stderr)
 
 #Managed hash algorithm for this version
 class Hash(Enum):
