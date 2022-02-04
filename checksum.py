@@ -1,10 +1,11 @@
+#!/usr/bin/env python3
 from enum import Enum, auto
 import hashlib
 import sys
 
 def usage():
     print("Usage : CheckSum.py [path] [algorithm] compare=[Hash to compare]\n \
-            Or : CheckSum.py [path] [algorithm]", file=sys.stderr)
+            Or : CheckSum.py [path] [algorithn]", file=sys.stderr)
 
 #Managed hash algorithm for this version
 class Hash(Enum):
@@ -44,7 +45,7 @@ if __name__ == '__main__':
         if i == 1:
             path = arg
         elif i == 2:
-            algo = arg
+            algo = arg.upper()
         elif i == 3:
             if "compare=" in arg:
                 compare = arg.split("=")[1]
